@@ -2,11 +2,9 @@
 
 int main()
 {
-    int x = 1;
-    int y = 2;
-    int z = x;
-    x = y;
-    y = z;
-    std::cout << x << "\n" << y << "\n";
-    return 0;
+    int x = 5,y = 4;
+    x = x+y;
+    y = x-y;
+    x = x-y;
+    std::cout <<"x=" << x << "\n" <<"y=" << y << "\n";
 }
